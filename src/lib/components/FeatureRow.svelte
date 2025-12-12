@@ -147,11 +147,11 @@
             <div class="p-6 h-full flex flex-col justify-center">
                 <div class="text-xs text-gray-400 mb-2">Customer ID: 42784724728</div>
                 <div class="grid grid-cols-2 gap-4">
-                    <div class="p-3 bg-green-50 rounded border border-green-100">
+                    <div class="p-3 bg-green-50 border border-green-100">
                         <div class="text-[10px] text-green-600 uppercase">Account status</div>
                         <div class="text-sm font-bold text-green-700">Active</div>
                     </div>
-                    <div class="p-3 bg-red-50 rounded border border-red-100">
+                    <div class="p-3 bg-red-50 border border-red-100">
                         <div class="text-[10px] text-red-600 uppercase">Account substatus</div>
                         <div class="text-sm font-bold text-red-700">Delinquent</div>
                     </div>
@@ -177,7 +177,7 @@
                 <span class="font-bold">{boldDesc}</span> <span class="text-gray-600">{restDesc}</span>
             </p>
         </div>
-        <button class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center text-gray-600 hover:bg-black hover:text-white hover:border-black transition-colors flex-shrink-0">
+        <button class="w-10 h-10 border border-gray-300 flex items-center justify-center text-gray-600 hover:bg-black hover:text-white hover:border-black transition-colors flex-shrink-0">
             <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="7" y1="17" x2="17" y2="7"></line>
                 <polyline points="7 7 17 7 17 17"></polyline>

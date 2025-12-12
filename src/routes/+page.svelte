@@ -35,7 +35,7 @@
                                 <path d="M5 12h14M12 5l7 7-7 7"/>
                             </svg>
                         </button>
-                        <button class="bg-transparent border border-white/20 hover:bg-white/10 text-white px-6 py-3 rounded-full font-medium transition-colors flex items-center gap-2">
+                        <button class="bg-transparent border border-white/20 hover:bg-white/10 text-white px-6 py-3 font-medium transition-colors flex items-center gap-2">
                             View Network Status
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -65,7 +65,7 @@
                                         <div class="text-xs text-gray-500">Facilities</div>
                                         <div class="text-lg font-bold">4</div>
                                     </div>
-                                    <div class="bg-gray-50 p-3 rounded-lg">
+                                    <div class="bg-gray-50 p-3">
                                         <div class="text-xs text-gray-500">Uptime</div>
                                         <div class="text-lg font-bold">99.9%</div>
                                     </div>
@@ -80,7 +80,7 @@
                     </div>
 
                     <!-- Card 3 - Tokyo Stats -->
-                    <div class="w-[350px] md:w-[450px] flex-shrink-0 rounded-xl overflow-hidden shadow-2xl border border-white/10 transform rotate-2 mt-8">
+                    <div class="w-[350px] md:w-[450px] flex-shrink-0 overflow-hidden shadow-2xl border border-white/10 transform rotate-2 mt-8">
                         <div class="bg-white p-6">
                             <div class="flex items-center justify-between mb-4">
                                 <div class="text-xs font-semibold text-gray-500 uppercase">Tokyo PoP</div>
@@ -92,11 +92,11 @@
                                     <div class="text-2xl font-bold text-gray-900">40 Gbps</div>
                                 </div>
                                 <div class="grid grid-cols-2 gap-3">
-                                    <div class="bg-gray-50 p-3 rounded-lg">
+                                    <div class="bg-gray-50 p-3">
                                         <div class="text-xs text-gray-500">Facilities</div>
                                         <div class="text-lg font-bold">4</div>
                                     </div>
-                                    <div class="bg-gray-50 p-3 rounded-lg">
+                                    <div class="bg-gray-50 p-3">
                                         <div class="text-xs text-gray-500">Latency</div>
                                         <div class="text-lg font-bold">&lt;5ms</div>
                                     </div>
@@ -146,11 +146,11 @@
                             Connect to 11+ carriers across Seoul and Tokyo. Our Tier III+ facilities and carrier-neutral positioning give you the flexibility to grow without vendor lock-in.
                         </p>
                         <div class="grid grid-cols-2 gap-4">
-                            <div class="bg-white/5 border border-white/10 rounded-xl p-4">
+                            <div class="bg-white/5 border border-white/10 p-4">
                                 <div class="text-3xl font-bold text-white mb-1">20+</div>
                                 <div class="text-sm text-gray-400">Interconnection Points</div>
                             </div>
-                            <div class="bg-white/5 border border-white/10 rounded-xl p-4">
+                            <div class="bg-white/5 border border-white/10 p-4">
                                 <div class="text-3xl font-bold text-white mb-1">99.99%</div>
                                 <div class="text-sm text-gray-400">Uptime SLA</div>
                             </div>
@@ -161,7 +161,7 @@
         </section>
 
         <!-- White Section -->
-        <div class="bg-[#F9FAFB] text-black rounded-t-[4rem] relative z-20 mt-[-2rem] pt-32 pb-32">
+        <div class="bg-[#F9FAFB] text-black relative z-20 mt-[-2rem] pt-32 pb-32">
             <div class="container mx-auto px-6">
                 <!-- Header -->
                 <div class="max-w-4xl mb-24">
@@ -313,7 +313,7 @@
                                     <p class="text-gray-400 text-sm">Retail platform scaled to 10x traffic capacity</p>
                                 </div>
                                 <div class="relative z-10 flex justify-end">
-                                    <div class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-colors">
+                                    <div class="w-10 h-10 bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-colors">
                                         <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                                     </div>
                                 </div>
@@ -356,7 +356,7 @@
                         </svg>
                     </button>
 
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-gray-200 border border-gray-200 rounded-2xl overflow-hidden">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-gray-200 border border-gray-200 overflow-hidden">
                         {#each ['KT', 'LG U+', 'SK Telecom', 'KINX', 'PCCW Global', 'Telstra', 'GCORE', 'China Mobile'] as carrier}
                         <div class="bg-[#F9FAFB] p-12 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
                             <span class="font-bold text-xl uppercase tracking-wider">{carrier}</span>
@@ -380,7 +380,7 @@
                         </div>
                         <!-- Post 2 -->
                         <div class="group cursor-pointer">
-                            <div class="rounded-3xl aspect-[16/9] mb-6 relative overflow-hidden">
+                            <div class="aspect-[16/9] mb-6 relative overflow-hidden">
                                 <img src="/generated/image-close-up-of-fiber-optic-cables-with-glow-1765513281287-2.webp" alt="Fiber optic cables" class="w-full h-full object-cover" />
                             </div>
                             <div class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Network Infrastructure</div>
